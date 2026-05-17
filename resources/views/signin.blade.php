@@ -56,7 +56,14 @@
             flex flex-col items-center justify-center
             bg-white border-1 border-black/30">
 
-                <h3>Sign In</h3>
+                <div class="w-full flex flex-col items-center justify-center gap-1 text-center">
+                    <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">
+                        Welcome Back
+                    </p>
+                    <h3 class="text-3xl font-semibold tracking-tight text-slate-900">
+                        Sign In
+                    </h3>
+                </div>
 
                 <div class="w-full
                 flex flex-col justify-center">
@@ -84,7 +91,11 @@
                 hover:scale-105 transition duration-200
                 bg-black p-2">Sign In</button>
 
-                <p>Don't Have An Account? <a href="/signup" class="text-blue-500 hover:underline">Sign Up</a></p>
+                <p>Need an Account? <a href="/signup" class="text-blue-500 hover:underline">Sign Up</a></p>
+
+                <p class="text-xs text-center leading-5 text-slate-500">
+                    Secure access for students, parents, teachers, and administrators.
+                </p>
 
             </form>
 
